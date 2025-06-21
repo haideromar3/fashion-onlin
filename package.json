@@ -1,0 +1,30 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.21",
+        "laravel-mix": "^6.0.49",
+        "postcss": "^8.5.3",
+        "resolve-url-loader": "^5.0.0",
+        "sass": "^1.87.0",
+        "sass-loader": "^12.1.0"
+    },
+    "dependencies": {
+        "@fortawesome/fontawesome-free": "^6.7.2",
+        "@popperjs/core": "^2.11.8",
+        "admin-lte": "^4.0.0-beta3",
+        "alpinejs": "^3.14.9",
+        "axios": "^1.9.0",
+        "bootstrap": "^5.3.5",
+        "chart.js": "^4.4.9",
+        "sweetalert2": "^11.19.1"
+    }
+}
